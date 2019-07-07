@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openTrelloSite.iml" filepath="$PROJECT_DIR$/.idea/modules/openTrelloSite.iml" group="openTrelloSite" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openTrelloSite_main.iml" filepath="$PROJECT_DIR$/.idea/modules/openTrelloSite_main.iml" group="openTrelloSite" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openTrelloSite_test.iml" filepath="$PROJECT_DIR$/.idea/modules/openTrelloSite_test.iml" group="openTrelloSite" />
+    </modules>
+  </component>
+</project>

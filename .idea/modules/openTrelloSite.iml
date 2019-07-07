@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="openTrelloSite" external.linked.project.path="$MODULE_DIR$/../../openTrelloSite" external.root.project.path="$MODULE_DIR$/../../openTrelloSite" external.system.id="GRADLE" external.system.module.group="telran" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../openTrelloSite" rootProjectPath="$MODULE_DIR$/../../openTrelloSite" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../openTrelloSite">
+      <excludeFolder url="file://$MODULE_DIR$/../../openTrelloSite/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../openTrelloSite/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../openTrelloSite/out" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
