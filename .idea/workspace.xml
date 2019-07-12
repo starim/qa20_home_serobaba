@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f07b7a-5c07-49fc-a8ad-5e8018c0d205" name="Default Changelist" comment="site have been opened">
-      <change afterPath="$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openTrelloSite/src/test/java/AppManeger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openTrelloSite/src/test/java/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openTrelloSite/src/test/java/BoardCreationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openTrelloSite/src/test/java/SessionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openTrelloSite/src/test/java/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openTrelloSite/src/test/java/TrelloLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/OpenTrello.java" beforeDir="false" afterPath="$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/CreateCrewTrello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openTrelloSite/out/test/classes/com/telran/trello/OpenTrello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/CreateCrewTrello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/TestBase.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/openTrelloSite/.gradle/" />
@@ -32,21 +39,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openTrelloSite/build.gradle">
+        <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/SessionHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/CreateCrewTrello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="833">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,18 +53,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="578">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1343#1344#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/BoardCreationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/TrelloLoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/AppManeger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#1843#1844#0" expanded="true" />
+                <element signature="e#1868#1869#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +129,11 @@
         <option value="$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/OpenTrello.java" />
         <option value="$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/CreateCrewTrello.java" />
         <option value="$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/TestBase.java" />
+        <option value="$PROJECT_DIR$/openTrelloSite/src/test/java/Board.java" />
+        <option value="$PROJECT_DIR$/openTrelloSite/src/test/java/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/openTrelloSite/src/test/java/AppManeger.java" />
+        <option value="$PROJECT_DIR$/openTrelloSite/src/test/java/BoardCreationTests.java" />
+        <option value="$PROJECT_DIR$/openTrelloSite/src/test/java/TrelloLoginTest.java" />
       </list>
     </option>
   </component>
@@ -109,51 +151,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="openTrelloSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openTrelloSite" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="openTrelloSite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openTrelloSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openTrelloSite" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="openTrelloSite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openTrelloSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openTrelloSite" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="openTrelloSite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openTrelloSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openTrelloSite" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="openTrelloSite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="openTrelloSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openTrelloSite" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openTrelloSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openTrelloSite" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="trello" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,10 +189,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../etarnovskayaQa20_class-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/openTrelloSite/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\Documents\GitHub\qa20_home_serobaba\openTrelloSite\src\test\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,7 +214,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.BoardCreationTests">
+    <configuration name="BoardCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="openTrelloSite_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoardCreationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateCrewTrello.openTrelloSite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="openTrelloSite_test" />
       <extension name="coverage">
@@ -199,6 +246,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BoardCreationTests" />
         <item itemvalue="TestNG.CreateCrewTrello.openTrelloSite" />
       </list>
     </recent_temporary>
@@ -231,39 +279,48 @@
     <history-entry file="OpenTrello_openTrelloSite - 2019.07.07 at 16h 15m 57s.xml">
       <configuration name="OpenTrello.openTrelloSite" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BoardCreationTests - 2019.07.12 at 10h 29m 35s.xml">
+      <configuration name="BoardCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BoardCreationTests - 2019.07.12 at 11h 26m 44s.xml">
+      <configuration name="BoardCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BoardCreationTests - 2019.07.12 at 11h 28m 12s.xml">
+      <configuration name="BoardCreationTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24291497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24696356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Build" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.29662523" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32874015" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.29662523" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,22 +329,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="site have been opened" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/openTrelloSite/build.gradle">
+    <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/CreateCrewTrello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="529">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
             <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
             <element signature="e#1343#1344#0" expanded="true" />
             <element signature="e#1391#1392#0" expanded="true" />
             <element signature="e#1416#1417#0" expanded="true" />
@@ -295,13 +355,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/com/telran/trello/CreateCrewTrello.java">
+    <entry file="file://$PROJECT_DIR$/openTrelloSite/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/AppManeger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/BoardCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openTrelloSite/src/test/java/TrelloLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
         </state>
       </provider>
     </entry>
